@@ -1,0 +1,79 @@
+* {
+    background-color: rgb(66, 216, 216);
+}
+
+.list {
+    display: none;
+}
+
+.menu_bar input[type="checkbox"]:checked~.list {
+    display: block;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+li:hover {
+    color: rgb(251, 253, 253);
+}
+
+.menu_bar input[type="checkbox"] {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    z-index: 4;
+    position: absolute;
+    opacity: 0;
+}
+
+.style_hamburger {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: transparent;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list {
+    padding-top: 80px;
+    padding-left: 50px;
+    background: rgb(179, 177, 177);
+}
+
+.style_hamburger .line {
+    height: 10px;
+    width: 100%;
+    background: rgb(109, 107, 107);
+    display: block;
+    border-radius: 5px;
+}
+
+.list li {
+    background: rgb(179, 177, 177);
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    justify-content: center;
+    display: flex;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 25px;
+    color: blue
+}
